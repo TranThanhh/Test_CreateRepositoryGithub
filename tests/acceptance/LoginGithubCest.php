@@ -41,7 +41,7 @@ class LoginGithubCest
      */
     public  function createRepons(LoginSteps $I)
     {
-        $I->createReponsitory($this->name,$this->des);
+        $I->createReponsitory($this->name, $this->des);
     }
 
     /**
